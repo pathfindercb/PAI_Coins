@@ -1,0 +1,21 @@
+{
+    "name": "pai/pai_coins",
+    "description": "Query CryptoCompare.com for coin prices & returns array",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Barlow",
+            "email": "cbarlow@pathfinderassociatesinc.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pathfindercb/pai_cache"
+        }
+    ],
+    "require": {
+        "pai/pai_cache": "dev-master"
+    }
+}

@@ -2,20 +2,18 @@
 // Class to get Coins data from CryptoCompare
 // Copyright © 2018-2020 Pathfinder Associates, Inc.
 // Author Christopher Barlow
-// version 2.82
+// version 2.83
 // updated 11/23/2020
 // updated 7/2/2018 added RUP
 
 namespace PAI;
 
-// Include the required Class file
-include('C:\xampp\htdocs\code\PAICoins\vendor\pai\pai_cache\pai_cache.php');
 // Include the required Class file using Composer
-//require_once ("vendor/autoload.php");	
+require_once ("vendor/autoload.php");	
 
 abstract class PAI_Coins_Abstract {
 
-	const version = "2.82";
+	const version = "2.83";
 	abstract function getCoins($coins,$flush);
 
 }

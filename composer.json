@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/pathfindercb/pai_cache"
+            "url": "https://github.com/pathfindercb/pai_cache.git"
         }
     ],
     "require": {

@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fec0dc556a3362fbc43ddc6921d83d6a",
+    "packages": [
+        {
+            "name": "pai/pai_cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pathfindercb/pai_cache.git",
+                "reference": "21378f2cfb910e906614bfa91a7cae084a5b97ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pathfindercb/pai_cache/zipball/21378f2cfb910e906614bfa91a7cae084a5b97ab",
+                "reference": "21378f2cfb910e906614bfa91a7cae084a5b97ab",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Barlow",
+                    "email": "cbarlow@pathfinderassociatesinc.com"
+                }
+            ],
+            "description": "caches files to reduce database or url reads",
+            "support": {
+                "source": "https://github.com/pathfindercb/pai_cache/tree/master",
+                "issues": "https://github.com/pathfindercb/pai_cache/issues"
+            },
+            "time": "2020-11-24T00:31:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pai/pai_cache": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

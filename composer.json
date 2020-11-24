@@ -16,6 +16,6 @@
         }
     ],
     "require": {
-        "pai/pai_cache": "master"
+        "pai/pai_cache": "dev-master"
     }
 }

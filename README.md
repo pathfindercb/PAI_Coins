@@ -1,1 +1,1 @@
-# PAI_Coins
+# pai_coins
